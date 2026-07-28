@@ -85,7 +85,7 @@ button {
 }
 
 .information {
-  padding: 50px;
+  margin: 20px 0px 100px 0px;
 }
 
 .upper {
@@ -103,7 +103,7 @@ h2 {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 70px;
+  gap: 50px;
 }
 
 .card-container {
@@ -124,4 +124,34 @@ h2 {
   color: #6d7580;
   margin: 0px;
   padding: 0px;
+}
+
+.quote-section {
+  background-color: #e5e7eb;
+  padding: 80px;
+}
+
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 300;
+  font-style: italic;
+  color: black;
+  width: 780px;
+}
+
+.author {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 28px;
+  color: #1f2937;
+  font-weight: 700;
+  width: 780px;
 }
